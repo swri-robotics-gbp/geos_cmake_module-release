@@ -1,0 +1,16 @@
+ros-melodic-geos-cmake-module (0.0.2-1stretch) stretch; urgency=high
+
+  * added license
+  * Merge branch 'tweak-cmake-extras' into 'master'
+    Tweak cmake extras
+    See merge request daniel_dsouza/geos_cmake_module!1
+  * Tweak cmake extras
+    This renames the extras.cmake files to be consistent with the package
+    name, and it also changes a variable in the installspace file to
+    reference the right package.
+  * works for me
+  * Contributors: Daniel D'Souza, P. J. Reed
+
+ -- Daniel D'Souza <daniel.dsouza@swri.org>  Fri, 04 Sep 2020 05:00:00 -0000
+
+
