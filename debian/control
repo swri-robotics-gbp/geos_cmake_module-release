@@ -1,0 +1,12 @@
+Source: ros-melodic-geos-cmake-module
+Section: misc
+Priority: optional
+Maintainer: Daniel D'Souza <daniel.dsouza@swri.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-geos-cmake-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: cmake module for using the libgeos geometry library with ROS
